@@ -1,0 +1,266 @@
+body{
+  font-family:"Montserrat";
+}
+
+h1,h2,h3,h4{
+  font-family: "Montserrat-Bold";
+}
+
+/*nav bar*/
+
+.logo-image{
+    width: 100px;
+    height: 80px; 
+    overflow: hidden;
+    
+}
+
+.navbar{
+  padding: 0 0 2.5rem;
+}
+
+
+.navbar-brand{
+font-family: "Ubuntu";
+
+}
+
+.nav-item{
+padding: 0 15px;
+font-weight: bold;
+}
+
+.nav-link{
+font-weight: 1rem;
+}
+
+
+/*Home page section*/
+
+#title{
+ 
+  background-image: url('https://images.pexels.com/photos/1293120/pexels-photo-1293120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  color: #fff;
+
+}
+
+
+
+.container-fluid{
+  padding: 3.5% 15% ;
+}
+
+
+.title-h1{
+  font-family:"Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1;
+
+}
+
+
+p{
+  color: #8f8f8f;
+}
+
+/*store button*/
+
+
+
+.store{
+  background: #d754f8;
+  background-image: -webkit-linear-gradient(top, #88e3d1, #2b84b8);
+  background-image: -moz-linear-gradient(top, #88e3d1, #2b84b8);
+  background-image: -ms-linear-gradient(top, #88e3d1, #2b84b8);
+  background-image: -o-linear-gradient(top, #88e3d1, #2b84b8);
+  background-image: linear-gradient(to bottom, #88e3d1, #2b84b8);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 5% 3% 5% 0;
+}
+
+.store:hover {
+  background: #fc3cbf;
+  background-image: -webkit-linear-gradient(top, #fc3cbf, #d999f0);
+  background-image: -moz-linear-gradient(top, #fc3cbf, #d999f0);
+  background-image: -ms-linear-gradient(top, #fc3cbf, #d999f0);
+  background-image: -o-linear-gradient(top, #fc3cbf, #d999f0);
+  background-image: linear-gradient(to bottom, #fc3cbf, #d999f0);
+  text-decoration: none;
+}
+
+/*features section*/
+
+#features{
+ padding: 7% 15%;
+
+}
+
+.features-h3{
+  font-family: "Montserrat-Bold";
+
+}
+
+.features-box{
+text-align: center;
+padding: 5%;
+}
+
+.icon{
+  color:darkorange;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #fc3cbf;
+}
+
+/*Tshirt gallery */
+
+#gallery{
+padding: 7% 15% 5% 15%;
+background-color: darkorange;
+color: #fff;
+}
+
+.gallery-h2{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.sliders{
+  padding: 7%;
+}
+
+/*buy section*/
+
+#buy{
+padding: 7% 15%;
+
+}
+.buy-h2{
+ 
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+.card-img{
+  width: 100%;
+  height: 40%;
+}
+
+span{
+  color: rgb(103, 209, 169);
+  font-size: 2rem;
+}
+
+/*custom design */
+
+#customdesign{
+  padding: 7% 15% 5% 15%;
+  background-color: darkorange;
+  align-items:center ;
+  text-align: center;
+
+  }
+  .custom-h2{
+    font-family: "Montserrat-dark";
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+  }
+
+.custom-h3{
+  font-size: 3.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.custombut{
+  background: #d754f8;
+  background-image: -webkit-linear-gradient(top, #88e3d1, #e639cf);
+  background-image: -moz-linear-gradient(top, #88e3d1, #932bb8);
+  background-image: -ms-linear-gradient(top, #88e3d1, #e63fe6);
+  background-image: -o-linear-gradient(top, #88e3d1, #cf32bf);
+  background-image: linear-gradient(to bottom, #2ecfe1, #cb30c0);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 2%;
+  
+}
+
+.custombut:hover{
+  background-color: aquamarine;
+  background-image: -webkit-linear-gradient(top, #88e3d1, #39ec29);
+  background-image: -moz-linear-gradient(top, #88e3d1, #33f61a);
+  background-image: -ms-linear-gradient(top, #88e3d1, #23e629);
+  background-image: -o-linear-gradient(top, #88e3d1, #2ed539);
+  background-image: linear-gradient(to bottom, #88e3d1, #55b82b);
+  text-decoration: none;
+}
+
+/*footer section*/
+
+#footer{
+  padding: 3%;
+text-align: center;
+align-items: center;
+size: 5rem;
+}
+
+/*media querries for phone view*/
+
+@media (max-width: 800px){
+
+  .gallery-h2{
+ 
+    font-size: 2rem;
+    text-align: center;
+  }
+
+   .sliders{
+    padding: 5%;
+  }
+  
+  .card-img{
+    width: 100%;
+    height: 30%;
+  }
+
+  span{
+    color: rgb(103, 209, 169);
+    font-size: 1.5rem;
+  }
+
+  
+  .custom-h2{
+    font-family: "Montserrat-dark";
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+  
+  }
+
+  .custom-h3{
+    font-size: 2.5rem;
+    color: #fff;
+     text-align: center;
+   }
+
+}
