@@ -100,17 +100,15 @@ p{
 
 /*features section*/
 
-#features{
+#features {
  padding: 7% 15%;
-
 }
 
-.features-h3{
+.features-h3 {
   font-family: "Montserrat-Bold";
-
 }
 
-.features-box{
+.features-box {
 text-align: center;
 padding: 5%;
 }
@@ -126,8 +124,9 @@ padding: 5%;
 
 /*Tshirt gallery */
 
+
 #gallery{
-padding: 7% 15% 5% 15%;
+padding: 4% 15% 0% 15%;
 background-color: darkorange;
 color: #fff;
 }
@@ -139,6 +138,12 @@ color: #fff;
 
 .sliders{
   padding: 7%;
+}
+
+.d-block {
+  width: 45% !important;
+  display: flex;
+  margin-left: 27%;
 }
 
 /*buy section*/
